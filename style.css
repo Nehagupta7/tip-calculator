@@ -1,0 +1,127 @@
+* {
+  font-family: "IBM Plex Mono";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #9FE8DF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  height: auto;
+  min-height: 100%;
+}
+
+.main_heading {
+  color: #406667;
+  text-align: center;
+}
+
+.Splt_tter_section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 900px;
+  padding: 40px 30px;
+  gap: 50px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.Splt_tter_section .left_splt, .Splt_tter_section .right_splt {
+  width: 100%;
+}
+.Splt_tter_section input {
+  height: 30px;
+  background: #F3F8FB;
+  border: 1px solid #26C2AD;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.Splt_tter_section label {
+  color: #6B7777;
+  margin-bottom: 5px;
+}
+.Splt_tter_section button {
+  padding: 8px 10px;
+  background-color: #00474B;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+.Splt_tter_section button:active, .Splt_tter_section button:hover {
+  background-color: #21C3AC;
+  color: #000;
+}
+.Splt_tter_section .btn_section {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid: repeat(2, auto);
+  gap: 20px;
+}
+.Splt_tter_section .left_form_control {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.Splt_tter_section .error_label {
+  display: flex;
+  justify-content: space-between;
+}
+.Splt_tter_section .error_label span {
+  color: #B48372;
+  display: none;
+}
+.Splt_tter_section .right_splt {
+  background-color: #00474B;
+  border: none;
+  border-radius: 10px;
+  padding: 30px;
+}
+.Splt_tter_section .right_splt h5 {
+  font-size: 16px;
+  color: #fff;
+}
+.Splt_tter_section .right_splt h3 {
+  font-size: 18px;
+  color: #21C3AC;
+}
+.Splt_tter_section .right_splt span {
+  font-size: 12px;
+  color: #649BA0;
+  padding-block: 7px;
+}
+.Splt_tter_section .right_splt .reset_btn {
+  width: 100%;
+  background-color: #9FE8DF;
+  color: #00474B;
+  margin-top: 40px;
+}
+.Splt_tter_section .right_splt .right_form_control {
+  display: flex;
+  flex-direction: row;
+}
+.Splt_tter_section .right_splt .right_form_control {
+  margin-block: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .Splt_tter_section {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */

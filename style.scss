@@ -1,0 +1,139 @@
+$light-green-bg :  #9FE8DF;
+$dark-green-bg : #00474B;
+$red-color-text :#B48372;
+$light-green-text:#21C3AC;
+$main-heading-color:#406667;
+$white-color:#fff;
+$lable-color:#6B7777;
+$small-text:#649BA0;
+*{
+font-family: "IBM Plex Mono";
+box-sizing: border-box;
+margin:0;
+padding: 0;
+
+}
+main{
+background-color:$light-green-bg;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap:20px;
+width: 100%;
+padding:20px;
+height: auto;
+min-height: 100%;
+}
+.main_heading{
+    color:$main-heading-color;
+    text-align: center;
+}
+.Splt_tter_section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 900px;
+    padding:40px 30px;
+    gap:50px;
+    margin:0 auto;
+    border:1px solid $white-color;
+    border-radius: 5px;
+    background-color:$white-color;
+    .left_splt,.right_splt{
+        width: 100%;
+    }
+    input{
+        height: 30px;
+        background: #F3F8FB;
+        border: 1px solid #26C2AD;
+        border-radius: 5px;
+        padding:5px 10px;
+    }
+    label{
+        color:$lable-color;
+        margin-bottom: 5px;
+    }
+    button{
+        padding:8px 10px;
+        background-color:$dark-green-bg;
+        color:$white-color;
+        border-radius: 5px;
+        border:none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        cursor: pointer;
+        &:active,&:hover{
+            background-color: $light-green-text;
+            color: #000;
+        }
+    }
+  
+.btn_section{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid: repeat(2, auto);
+    gap: 20px;
+
+}
+.left_form_control{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-bottom: 20px;
+}
+.error_label{
+    display: flex;
+    justify-content: space-between;
+    span{
+        color:$red-color-text;
+        display:none;
+    }
+}
+.right_splt{
+    background-color: $dark-green-bg;
+    border:none;
+    border-radius: 10px;
+    padding:30px;
+    h5{
+    font-size: 16px;
+    color:$white-color;
+    }
+    h3{
+        font-size: 18px;
+        color:$light-green-text;
+    }
+    span{
+        font-size: 12px;
+        color:$small-text;
+        padding-block:7px;
+    }
+    .reset_btn{
+        width:100%;
+        background-color: $light-green-bg ;
+        color:#00474B;
+        margin-top:40px;
+    }
+    .right_form_control{
+        display: flex;
+        flex-direction: row;
+    } 
+    .right_form_control {
+        margin-block: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+ 
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .Splt_tter_section{
+        display: flex;
+        flex-direction: column;
+    }
+  }

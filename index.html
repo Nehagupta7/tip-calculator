@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <main class="Splt_tter_container">
+        <h1 class="main_heading">SPLT <br/>TTER </h1>
+        <div class="Splt_tter_section">
+            <div class="left_splt">
+                <div class="left_form_control">
+                                        <div class="error_label"> <label>Bill</label> <span class="amount_error">Enter Amount</span></div>
+                                        
+                                        <input type="text" id="amount" dir="rtl">
+                </div>
+                <div class="left_form_control">
+                    <label>Select Tip %</label>
+                    <div class="btn_section">
+                    <button class="billTip" onclick="myFunction(this)">5%</button>
+                    <button class="billTip" onclick="myFunction(this)">10%</button>
+                    <button class="billTip" onclick="myFunction(this)">15%</button>
+                    <button class="billTip" onclick="myFunction(this)">20%</button>
+                    <button class="billTip" onclick="myFunction(this)">25%</button>
+                    <button class="billTip" onclick="myFunction(this)">Custom</button>
+                </div>
+                </div>
+                <div class="left_form_control">
+                   <div class="error_label"> <label>Number of People</label> <span class="person_error">Can,t be zero</span></div>
+                    <input type="text" id="person" dir="rtl">
+                </div>
+            </div>
+            <div class="right_splt">
+                <div class="right_form_control">
+                    <div class="left_span">
+                        <h5>Tip Amount</h5>
+                        <span>/Person</span>
+                    </div>
+                    <div class="right_span">
+                        <h3>$0.00</h3>
+                    </div>
+                </div>
+                <div class="right_form_control">
+                    <div class="left_span">
+                        <h5>Total</h5>
+                        <span>/Person</span>
+                    </div>
+                    <div class="right_span total_amount">
+                        <h3>$0.00</h3>
+                    </div>
+                </div>
+                <button class="reset_btn" id="reset">RESET</button>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
