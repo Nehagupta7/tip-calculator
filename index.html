@@ -3,7 +3,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+    <link rel="stylesheet" 
+    href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
     
@@ -15,8 +17,10 @@
             <div class="left_splt">
                 <div class="left_form_control">
                                         <div class="error_label"> <label>Bill</label> <span class="amount_error">Enter Amount</span></div>
-                                        
+                                        <div class="input-icons">
+                                        <i class="fa fa-percent icon"></i>
                                         <input type="text" id="amount" dir="rtl">
+                                    </div>
                 </div>
                 <div class="left_form_control">
                     <label>Select Tip %</label>
@@ -27,11 +31,15 @@
                     <button class="billTip" onclick="myFunction(this)">20%</button>
                     <button class="billTip" onclick="myFunction(this)">25%</button>
                     <button class="billTip" onclick="myFunction(this)">Custom</button>
+
                 </div>
                 </div>
                 <div class="left_form_control">
                    <div class="error_label"> <label>Number of People</label> <span class="person_error">Can,t be zero</span></div>
-                    <input type="text" id="person" dir="rtl">
+                   <div class="input-icons">
+                    <i class="fa fa-user icon"></i>
+                   <input type="text" id="person" dir="rtl">
+                   </div>
                 </div>
             </div>
             <div class="right_splt">

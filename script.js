@@ -9,7 +9,7 @@ console.log("hello",billAmount,Person)
 
   function myFunction(element) {
 console.log(ShowAmount)
-if(this.element =="Custom"){
+if(this.element ==="Custom"){
 
 }
 

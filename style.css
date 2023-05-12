@@ -44,6 +44,7 @@ main {
   border: 1px solid #26C2AD;
   border-radius: 5px;
   padding: 5px 10px;
+  width: 100%;
 }
 .Splt_tter_section label {
   color: #6B7777;
@@ -117,6 +118,22 @@ main {
   margin-block: 25px;
   display: flex;
   justify-content: space-between;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 8px;
+  min-width: 10px;
+  font-size: 12px;
+  color: #6B7777;
 }
 
 @media only screen and (max-width: 768px) {
