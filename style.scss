@@ -74,8 +74,7 @@ min-height: 100%;
   
 .btn_section{
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid: repeat(2, auto);
+    grid-template-columns: repeat(3, 112px);
     gap: 20px;
 
 }
