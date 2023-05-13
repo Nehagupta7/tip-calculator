@@ -74,7 +74,7 @@ Person.onkeypress = function(event) {
         total = Math.round(total * 100) / 100;
         total = total.toFixed(2);
         ShowAmount.innerHTML=`$${total}`
-        totalAmount.innerHTML=`$${Person.value}`
+        totalAmount.innerHTML=`$${billAmount.value}`
         console.log( total)
     }
 
