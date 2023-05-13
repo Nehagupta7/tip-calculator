@@ -50,7 +50,7 @@ main {
   color: #6B7777;
   margin-bottom: 5px;
 }
-.Splt_tter_section .billTip {
+.Splt_tter_section .billTip, .Splt_tter_section button {
   padding: 8px 10px;
   background-color: #00474B;
   color: #fff;
@@ -61,7 +61,7 @@ main {
   font-size: 15px;
   cursor: pointer;
 }
-.Splt_tter_section .billTip:active, .Splt_tter_section .billTip:hover {
+.Splt_tter_section .billTip:active, .Splt_tter_section .billTip:hover, .Splt_tter_section button:active, .Splt_tter_section button:hover {
   background-color: #21C3AC;
   color: #000;
 }
